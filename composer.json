@@ -1,0 +1,25 @@
+{
+  "name": "syams/php-discord-client",
+  "autoload": {
+      "psr-4": {
+          "Syams\\PhpDiscordClient\\": "src/"
+      }
+  },
+  "autoload-dev": {
+      "psr-4": {
+          "Syams\\PhpDiscordClient\\": "test/"
+      }
+  },
+  "authors": [
+      {
+          "name": "Prima Syams F",
+          "email": "primasyams@gmail.com"
+      }
+  ],
+  "require": {
+      "guzzlehttp/guzzle": "^7.4"
+  },
+  "require-dev": {
+      "phpunit/phpunit": "^9"
+  }
+}
